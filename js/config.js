@@ -13,146 +13,108 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'ZY-TV',
-    url: 'https://tv.zhouyang.cool',
+    name: 'LibreTV',
+    url: 'https://libretv.is-an.org',
     description: '免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
 };
 
 // API站点配置
-const API_SITES = { 
+const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
-        detail: 'http://caiji.dyttzyapi.com',
-        adult: true
+        detail: 'http://caiji.dyttzyapi.com', 
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
-        adult: true
     },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '暴风资源',
-        adult: true
     },
     tyyszy: {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
-        adult: true
     },
     // xiaomaomi: {
     //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
     //     name: '小猫咪资源',
-    //     adult: true
     // },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
-        detail: 'http://ffzy5.tv',
-        adult: true
+        detail: 'http://ffzy5.tv', 
     },
     heimuer: {
         api: 'https://json.heimuer.xyz/api.php/provide/vod',
         name: '黑木耳',
-        detail: 'https://heimuer.tv',
-        adult: true
+        detail: 'https://heimuer.tv', 
     },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
-        adult: true
     },
     iqiyi: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: 'iqiyi资源',
-        adult: true
     },
     wolong: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
-        adult: true
     }, 
     hwba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
         name: '华为吧资源',
-        adult: true
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速资源',
-        detail: 'https://jszyapi.com',
-        adult: true
+        detail: 'https://jszyapi.com', 
     },
     dbzy: {
         api: 'https://dbzy.tv/api.php/provide/vod',
         name: '豆瓣资源',
-        adult: true
     },
     mozhua: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
         name: '魔爪资源',
-        adult: true
     },
     mdzy: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
         name: '魔都资源',
-        adult: true
     },
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
-        name: '最大资源',
-        adult: true
+        name: '最大资源'
     },
     yinghua: {
         api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花资源',
-        adult: true
+        name: '樱花资源'
     },
     baidu: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
-        name: '百度云资源',
-        adult: true
+        name: '百度云资源'
     },
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
-        name: '无尽资源',
-        adult: true
+        name: '无尽资源'
     },
     wwzy: {
         api: 'https://wwzy.tv/api.php/provide/vod',
-        name: '旺旺短剧',
-        adult: true
+        name: '旺旺短剧'
     },
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: 'iKun资源',
-        adult: true
+        name: 'iKun资源'
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
         adult: true
     },
-    fantuan: {
-        api: 'https://www.fantuan.tv/api.php/provide/vod/',
-        name: '饭团影视',
-        adult: true
-    },
-    ysFactory: {
-        api: 'https://cj.lziapi.com/api.php/provide/vod/',
-        name: '影视工厂',
-        adult: true
-    },
-    qiqi: {
-        api: 'https://www.qiqidys.com/api.php/provide/vod/',
-        name: '七七资源',
-        adult: true
-    }
-};
-
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
     // 这些黄色影片是资本主义父权制压迫的最恶毒体现，它将暴力和屈辱商品化，践踏人的尊严，对受害者造成无法弥愈的伤害，并毒害社会关系。
